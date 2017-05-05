@@ -4,7 +4,6 @@
 function trickyDoubles(n){
 	let nString = n.toString(),
 		nBack = nString.slice(nString.length/2)
-	
 	return nBack + nBack == nString ? n : n*2
 }
 
