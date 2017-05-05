@@ -8,4 +8,4 @@ function getQuotes(string) {
 	return string.match(reg);
 }
 
-console.log(getQuotes('"example quote #1" some text "example quote #2"'))
+console.log(getQuotes('"example quote #1" some text "example quote #2"'));
