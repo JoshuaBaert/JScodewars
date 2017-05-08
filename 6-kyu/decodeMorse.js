@@ -1,5 +1,5 @@
 /**
- * Created by Joshua Baert on 5/5/2017.
+ * Created by Joshua Baert on 5/8/2017.
  */
 
 
@@ -17,8 +17,8 @@ decodeMorse = function(morse){
 	let letters = morse.replace(/\s\s\s/g," * ").replace(/\s+/g, " ").split(' ');
 	let sentence = letters
 		.map((code,index)=>{
-		return decode.alpha[decode.morse.indexOf(code)]
-	}).join('')
+			return decode.alpha[decode.morse.indexOf(code)]
+		}).join('')
 	return sentence.indexOf(' ') < 1 ? sentence.replace(/\s+/,'') : sentence
 }
 
