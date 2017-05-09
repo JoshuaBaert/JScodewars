@@ -1,6 +1,7 @@
 /**
- * Created by Joshua Baert on 5/5/2017.
+ * Created by Joshua Baert on 5/9/2017.
  */
+
 
 // https://www.codewars.com/kata/equal-sides-of-an-array
 
