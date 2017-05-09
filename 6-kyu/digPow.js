@@ -1,7 +1,7 @@
 /**
- * Created by Joshua Baert on 5/5/2017.
+ * Created by Joshua Baert on 5/9/2017.
+ * https://www.codewars.com/kata/playing-with-digits/javascript
  */
-
 
 function digPow(n, p){
 	let workedN = n
