@@ -12,13 +12,15 @@ decodeMorse = function(morse){
 			'1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
 			' ','SOS', '.', ',', '?', '\'', '!'],
 	};
-	let letters = morse.trim().replace(/\s\s\s/g," * ").replace(/\s+/g, " ").split(' ');
-	let sentence = letters
+	return morse
+		.trim()
+		.replace(/\s\s\s/g," * ")
+		.split(' ')
 		.map((code,index)=>{
 			return decode.alpha[decode.morse.indexOf(code)]
 		})
 		.join('');
-	return sentence
+	
 };
 
 
