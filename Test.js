@@ -20,4 +20,4 @@ function minus(d2) {return (d1) => d1-d2}
 function times(d2) {return (d1) => d1*d2}
 function dividedBy(d2) {return (d1) => d1/d2}
 
-console.log(seven(times(seven())));
+console.log(five(times(five(times(nine())))));
