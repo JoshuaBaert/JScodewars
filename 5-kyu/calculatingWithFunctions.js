@@ -1,5 +1,5 @@
 /**
- * Created by Joshua Baert on 5/5/2017.
+ * Created by Joshua Baert on 5/17/2017.
  */
 
 // https://www.codewars.com/kata/calculating-with-functions
