@@ -1,5 +1,5 @@
 /**
- * Created by Joshua Baert on 5/5/2017.
+ * Created by Joshua Baert on 5/18/2017.
  */
 
 // https://www.codewars.com/kata/a-chain-adding-function
