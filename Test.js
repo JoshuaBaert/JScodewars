@@ -2,12 +2,10 @@
  * Created by Joshua Baert on 5/5/2017.
  */
 
-// https://www.codewars.com/kata/a-chain-adding-function
+// https://www.codewars.com/kata/max-collatz-sequence-length
 
-const add = (x) => {
-	let rtn = (y) => add(x+y);
-	rtn.valueOf = () => x;
-	return rtn
+function MaxCollatzLength(n) {
+
 }
 
-console.log(add(1)(2)(3)+5);
+console.log(add(1)(2)(3));

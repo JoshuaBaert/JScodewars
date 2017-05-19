@@ -10,4 +10,4 @@ const add = (x) => {
 	return rtn
 }
 
-console.log(add(1)(2)(3)+5);
+console.log(add(1)(2)(3));
