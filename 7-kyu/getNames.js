@@ -1,8 +1,8 @@
 /**
- * Created by Joshua Baert on 5/5/2017.
+ * Created by Joshua Baert on 6/1/2017.
  */
 
-// https://www.codewars.com/kata/max-collatz-sequence-length
+// https://www.codewars.com/kata/getnames
 
 var data = [
 	{name: 'Joe', age: 20},
