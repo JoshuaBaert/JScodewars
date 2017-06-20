@@ -14,4 +14,5 @@ function oper(fct, s) {
 	return fct(s)
 }
 
+
 console.log(oper(horMirror, 'dcba\nhgfe\nlkji\nponm'))
