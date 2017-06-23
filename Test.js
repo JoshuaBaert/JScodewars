@@ -6,8 +6,10 @@ function rot(s) {
 	return s.split('\n').reverse().map(e => e.split('').reverse().join('')).join('\n')
 }
 function selfieAndRot(s) {
-	return s.split('\n').map(e=>e+='....')
-		.concat(rot(s).split('\n').map(e=>'....'+e)).join('\n')
+	let dots = ''
+	s.split('\n')[0].split('').map(e=> dots += '.')
+	return s.split('\n').map(e=>e+=dots)
+		.concat(rot(s).split('\n').map(e=>dots+e)).join('\n')
 }
 function oper(fct, s) {
 	return fct(s);
