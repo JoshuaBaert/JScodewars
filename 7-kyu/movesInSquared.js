@@ -15,4 +15,4 @@ function oper(fct, s) {
 }
 
 
-console.log(oper(horMirror, 'dcba\nhgfe\nlkji\nponm'))
+console.log(oper(vertMirror, 'dcba\nhgfe\nlkji\nponm'))
